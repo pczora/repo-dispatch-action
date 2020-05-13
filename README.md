@@ -4,11 +4,11 @@ Enables sending repository dispatch events to other repos
 
 ## Inputs
 
-### `event-type`
+### `event_type`
 
 **Required** The type of the event to be dispatched
 
-### `auth-token`
+### `auth_token`
 
 **Required** The auth token (needs to have repo scope)
 

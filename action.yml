@@ -1,10 +1,10 @@
 name: "Repo dispatch action"
 description: "Dispatches a repository event"
 inputs:
-  event-type:
+  event_type:
     description: "The type of the event to be dispatched"
     required: true
-  auth-token:
+  auth_token:
     description: "The auth token (needs to have repo scope)"
     required: true
   org:
@@ -16,8 +16,3 @@ inputs:
 runs:
   using: "docker"
   image: "Dockerfile"
-  env:
-    EVENT_TYPE: ${{ inputs.event-type }}
-    AUTH_TOKEN: ${{ inputs.auth-token }}
-    ORG: ${{ inputs.org-name }}
-    REPO: ${{ inputs.repo }}
