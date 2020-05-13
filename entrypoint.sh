@@ -1,6 +1,6 @@
 #!/bin/sh -l
 echo "Dispatching repo event..."
-echo "T ype:\t" ${INPUT_EVENT_TYPE}
+echo "Type:\t" ${INPUT_EVENT_TYPE}
 echo "Org:\t" ${INPUT_ORG}
 echo "Repo:\t" ${INPUT_REPO}
 
