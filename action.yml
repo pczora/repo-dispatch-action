@@ -17,7 +17,7 @@ runs:
   using: "docker"
   image: "Dockerfile"
   env:
-    - EVENT_TYPE=${{ inputs.event-type }}
-    - AUTH_TOKEN=${{ inputs.auth-token }}
-    - ORG=${{ inputs.org-name }}
-    - REPO=${{ inputs.repo }}
+    EVENT_TYPE: ${{ inputs.event-type }}
+    AUTH_TOKEN: ${{ inputs.auth-token }}
+    ORG: ${{ inputs.org-name }}
+    REPO: ${{ inputs.repo }}
