@@ -2,6 +2,8 @@
 
 Enables sending repository dispatch events to other repos
 
+Based on [this Gist](https://gist.github.com/Daniel-ltw/552b90800b07c22e4a83dfa68ada6318) by @Daniel-ltw
+
 ## Inputs
 
 ### `event_type`
